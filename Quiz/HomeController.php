@@ -12,7 +12,7 @@ class HomeController extends Controller
         ['id' => 3, 'npm' => 21310017, 'name' => 'Alfan',  'gender' => 'Perempuan', 'alamat' => 'Bogor'],
         ['id' => 4, 'npm' => 21310069, 'name' => 'Rizki',  'gender' => 'Laki-Laki', 'alamat' => 'Bogor'],
         ['id' => 5, 'npm' => 21310025, 'name' => 'Aditya',  'gender' => 'Perempuan', 'alamat' => 'Bogor'],
-        ['id' => 6, 'npm' => 21310001, 'name' => 'Paok',  'gender' => 'Laki-Laki', 'alamat' => 'Bogor'],
+        ['id' => 6, 'npm' => 21310001, 'name' => 'Rafi',  'gender' => 'Laki-Laki', 'alamat' => 'Bogor'],
     );
     public  function index() {
         return view('home', [
